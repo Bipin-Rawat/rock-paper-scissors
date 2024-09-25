@@ -1,0 +1,77 @@
+.Head{
+    display: flex;
+    color: white;
+    background-color:#081b31;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.choices{
+    margin-top: 5rem;   
+   display: flex;
+   justify-content: center;
+    gap: 3rem;
+
+
+}
+
+img{
+    height:165px ;
+    width:165px ;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+    
+}
+
+.choice{
+      padding-top:5px;
+      padding-bottom:5px;
+      padding-left:5px;
+      padding-right:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    background: #081b31;;
+}
+.score_board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: -4rem;
+}
+#user_score{
+    font-size: 5rem;
+    padding-left: 22px;
+    margin-bottom: -20px;
+}
+#comp_score{
+    padding-left: 29px;
+    font-size: 5rem;
+    margin-bottom: -20px;
+}
+
+#msg {
+    font-size: 2rem;
+    color: aliceblue;
+    background-color: #081b31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: fit-content; /* Only takes up the space it needs */
+    margin: 0 auto; /* Center the container on the page */
+}
